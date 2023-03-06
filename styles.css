@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  font-size: 18px;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 4px 0 4px 0;
+}
+.menu-contactos {
+  background: #3e3c6e;
+  color: white;
+  padding: 4px 8px 4px 8px;
+  border-radius: 4px;
+  margin-right: 50px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+
+.intro-initial {
+  display: flex;
+  flex-direction: column;
+}
+.intro-profession {
+  color: white;
+  font-size: 36px;
+  text-align: left;
+  margin: 0 0 0 200px;
+  position: relative;
+  z-index: 2;
+}
+
+.intro-name {
+  color: #a569bd;
+  font-size: 64px;
+  text-align: left;
+  margin: 0 0 0 200px;
+  position: relative;
+  z-index: 2;
+}
+
+.intro-cv {
+  width: 134px;
+  height: 30px;
+  background: #a569bd;
+  color: white;
+  border-radius: 4px;
+  font-size: 20px;
+  margin: 120px 0 0 200px;
+  padding: 4px;
+  z-index: 2;
+}
+
+.intro-foto {
+  height: 400px;
+  clip-path: circle(40%);
+  position: relative;
+  z-index: 2;
+}
+
+.intro-sigueme {
+  writing-mode: vertical-rl;
+  color: #a569bd;
+  margin-right: 65px;
+  position: relative;
+  z-index: 2;
+}
+
+.intro-redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro-line,
+.intro-linkedin,
+.intro-Twitter,
+.intro-Instagram {
+  margin-top: 8px;
+  margin-right: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.vector {
+  width: 1263.33px;
+  height: 400px;
+  position: absolute;
+  z-index: 1;
+  margin: 0;
+}
+
+.sobremi {
+  display: flex;
+}
+
+.estrellas {
+  height: 314px;
+}
+
+.sobremi-titulo {
+  color: #3e3c6e;
+  margin: 20px 0 0 0px;
+  font-size: 28px;
+}
+
+.sobremi-parrafo {
+  text-align: justify;
+}
+.sobremi-parrafo p:nth-child(n) {
+  padding: 20px;
+  margin: 0;
+  font-size: 18px;
+}
+.contratame {
+  width: 100px;
+  height: 20px;
+  border-radius: 4px;
+  margin: 0 0 0 1100px;
+  padding: 4px 0 4px 8px;
+  background: #a569bd;
+  color: white;
+}
+
+.portafolio-title {
+  color: #3e3c6e;
+  margin-left: 60px;
+  font-size: 28px;
+}
+
+.proyectos-personales {
+  margin-left: 60px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.proyectos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.rickMorty {
+  width: 50%;
+}
+
+.pokedex {
+  width: 50%;
+}
+
+.educacion-title {
+  color: #3e3c6e;
+  margin-left: 60px;
+  font-size: 28px;
+}
+
+.educacion-años {
+  text-align: center;
+  color: #8873ef;
+  font-size: 18px;
+  margin-right: 120px;
+}
+
+.educacion-experiencia-uno {
+  display: flex;
+  justify-content: center;
+}
+.educacion-uno {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.educacion-uno p:nth-child(n) {
+  margin: 0 20px 0 0;
+  text-align: end;
+}
+
+.educacion-uno p:nth-child(1) {
+  font-weight: 600;
+}
+.educacion-uno p:nth-child(2) {
+  font-weight: 300;
+}
+
+.educacion-arrow {
+  width: 280px;
+}
+
+.experiencia-uno {
+  width: 450px;
+  text-align: justify;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.experiencia-uno p:nth-child(n) {
+  margin: 0 0 0 20px;
+}
+
+.experiencia-uno p:nth-child(1) {
+  font-weight: 600;
+}
+.experiencia-uno p:nth-child(2) {
+  font-weight: 300;
+}
+
+.educacion-experiencia-dos {
+  display: flex;
+  justify-content: center;
+}
+
+.educacion-dos {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.educacion-dos p:nth-child(n) {
+  margin: 0 20px 0 0;
+  text-align: end;
+}
+
+.educacion-dos p:nth-child(1) {
+  font-weight: 600;
+}
+.educacion-dos p:nth-child(2) {
+  font-weight: 600;
+}
+.educacion-dos p:nth-child(3) {
+  font-weight: 300;
+}
+
+.educaion-arrow-dos {
+}
+
+.experiencia-dos {
+  width: 450px;
+  text-align: justify;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.experiencia-dos p:nth-child(n) {
+  margin: 0 0 0 20px;
+}
+
+.experiencia-dos p:nth-child(1) {
+  font-weight: 600;
+}
+.experiencia-dos p:nth-child(2) {
+  font-weight: 300;
+}

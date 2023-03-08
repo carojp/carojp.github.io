@@ -5,16 +5,28 @@ body {
 
 .header {
   font-size: 18px;
-}
-
-.header-menu {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   justify-content: space-between;
-  list-style: none;
-  margin: 4px 0 4px 0;
+  padding: 4px 0 4px 20px;
+  position: fixed;
+
+  width: 100%;
+
+  background-color: #3e3c6e;
 }
+
+.header-menu:link {
+  text-decoration: none;
+}
+
+.header-menu:visited {
+  color: white;
+}
+.menu-contactos:link {
+  text-decoration: none;
+}
+
 .menu-contactos {
   background: #3e3c6e;
   color: white;
@@ -26,31 +38,27 @@ body {
 .intro {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  position: relative;
-  z-index: 2;
+  justify-content: space-around;
+  background: linear-gradient(to bottom, #ee9ca7, #ffdde1);
 }
 
 .intro-initial {
   display: flex;
   flex-direction: column;
 }
+
 .intro-profession {
   color: white;
   font-size: 36px;
   text-align: left;
-  margin: 0 0 0 200px;
-  position: relative;
-  z-index: 2;
+  margin: 0 0 0 100px;
 }
 
 .intro-name {
   color: #a569bd;
   font-size: 64px;
   text-align: left;
-  margin: 0 0 0 200px;
-  position: relative;
-  z-index: 2;
+  margin: 0 0 0 100px;
 }
 
 .intro-cv {
@@ -60,19 +68,16 @@ body {
   color: white;
   border-radius: 4px;
   font-size: 20px;
-  margin: 120px 0 0 200px;
+  margin: 0 0 0 100px;
   padding: 4px;
-  z-index: 2;
 }
 
 .intro-foto {
   height: 400px;
   clip-path: circle(40%);
-  position: relative;
-  z-index: 2;
 }
 
-.intro-sigueme {
+/* .intro-sigueme {
   writing-mode: vertical-rl;
   color: #a569bd;
   margin-right: 65px;
@@ -92,17 +97,7 @@ body {
 .intro-Instagram {
   margin-top: 8px;
   margin-right: 50px;
-  position: relative;
-  z-index: 2;
-}
-
-.vector {
-  width: 1263.33px;
-  height: 400px;
-  position: absolute;
-  z-index: 1;
-  margin: 0;
-}
+} */
 
 .sobremi {
   display: flex;
@@ -242,9 +237,6 @@ body {
   font-weight: 300;
 }
 
-.educaion-arrow-dos {
-}
-
 .experiencia-dos {
   width: 450px;
   text-align: justify;
@@ -261,4 +253,74 @@ body {
 }
 .experiencia-dos p:nth-child(2) {
   font-weight: 300;
+}
+
+.footer {
+  background: linear-gradient(to bottom, #ee9ca7, #ffdde1);
+  display: flex;
+  margin-top: 40px;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-estrella {
+  opacity: 0.7;
+  height: 60px;
+}
+.footer p:nth-child(n) {
+  font-size: 14px;
+  color: white;
+}
+
+.footer-telefono {
+  display: flex;
+  align-items: center;
+}
+
+.telefono {
+  margin-left: 30px;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.footer-email {
+  display: flex;
+  align-items: center;
+}
+
+.email {
+  width: 20px;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.footer-web {
+  display: flex;
+  align-items: center;
+}
+
+.web {
+  width: 20px;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.footer-ubicacion {
+  display: flex;
+  align-items: center;
+}
+
+.ubicacion {
+  width: 20px;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
 }

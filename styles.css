@@ -99,12 +99,13 @@ body {
   margin-right: 50px;
 } */
 
-.sobremi {
+.sobre-mi {
   display: flex;
 }
 
 .estrellas {
   height: 314px;
+  object-fit: cover;
 }
 
 .sobremi-titulo {
@@ -121,24 +122,15 @@ body {
   margin: 0;
   font-size: 18px;
 }
-.contratame {
-  width: 100px;
-  height: 20px;
-  border-radius: 4px;
-  margin: 0 0 0 1100px;
-  padding: 4px 0 4px 8px;
-  background: #a569bd;
-  color: white;
-}
 
 .portafolio-title {
   color: #3e3c6e;
-  margin-left: 60px;
+  margin: 18px 0 0 60px;
   font-size: 28px;
 }
 
 .proyectos-personales {
-  margin-left: 60px;
+  margin: 8px 0 0 60px;
   font-size: 18px;
   font-weight: 400;
 }
@@ -146,6 +138,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin: 16px;
 }
 
 .rickMorty {

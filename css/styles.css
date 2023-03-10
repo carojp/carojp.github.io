@@ -9,8 +9,11 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 4px 0 4px 20px;
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
   width: 100%;
   background-color: #3e3c6e;
 }
@@ -108,6 +111,10 @@ body {
   margin-right: 50px;
 } */
 
+.espacio-sobremi {
+  height: 50px;
+  margin: 20px 0 50px 0px;
+}
 .sobre-mi {
   display: flex;
 }
@@ -119,7 +126,8 @@ body {
 
 .sobremi-titulo {
   color: #3e3c6e;
-  margin: 20px 0 0 0px;
+  margin: 35px 0 0 0;
+
   font-size: 28px;
 }
 
@@ -139,7 +147,7 @@ body {
 }
 
 .proyectos-personales {
-  margin: 8px 0 0 60px;
+  margin: 4px 0 0 60px;
   font-size: 18px;
   font-weight: 400;
 }
@@ -168,7 +176,7 @@ body {
   text-align: center;
   color: #8873ef;
   font-size: 18px;
-  margin-right: 120px;
+  margin: 12px 120px 12px 0;
 }
 
 .educacion-experiencia-uno {
@@ -178,6 +186,9 @@ body {
 .educacion-uno {
   font-size: 18px;
   margin-top: 20px;
+}
+.educacion-arrow {
+  height: 200px;
 }
 
 .educacion-uno p:nth-child(n) {
@@ -190,10 +201,6 @@ body {
 }
 .educacion-uno p:nth-child(2) {
   font-weight: 300;
-}
-
-.educacion-arrow {
-  width: 280px;
 }
 
 .experiencia-uno {
@@ -257,10 +264,14 @@ body {
   font-weight: 300;
 }
 
+.educacion-arrow-dos {
+  height: 290px;
+}
+
 .footer {
   background: linear-gradient(to bottom, #ee9ca7, #ffdde1);
   display: flex;
-  margin-top: 40px;
+  margin-top: 20px;
   height: 60px;
   justify-content: space-between;
   align-items: center;

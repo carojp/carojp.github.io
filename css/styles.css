@@ -6,9 +6,7 @@ body {
 .header {
   font-size: 18px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 4px 0 4px 20px;
+  padding: 8px;
   position: fixed;
   top: 0;
   left: 0;
@@ -16,6 +14,7 @@ body {
   z-index: 999;
   width: 100%;
   background-color: #3e3c6e;
+  justify-content: space-around;
 }
 
 .header-menu:link {
@@ -25,17 +24,6 @@ body {
 
 .header-menu:visited {
   color: white;
-}
-.menu-contactos:link {
-  text-decoration: none;
-}
-
-.menu-contactos {
-  background: #3e3c6e;
-  color: white;
-  padding: 4px 8px 4px 8px;
-  border-radius: 4px;
-  margin-right: 50px;
 }
 
 .intro {
@@ -120,7 +108,7 @@ body {
 }
 
 .estrellas {
-  height: 314px;
+  height: 400px;
   object-fit: cover;
 }
 
@@ -138,6 +126,7 @@ body {
   padding: 20px;
   margin: 0;
   font-size: 18px;
+  line-height: 1.5;
 }
 
 .portafolio-title {
@@ -187,12 +176,12 @@ body {
   font-size: 18px;
   margin-top: 20px;
 }
-.educacion-arrow {
+.arrow {
   height: 200px;
 }
 
 .educacion-uno p:nth-child(n) {
-  margin: 0 20px 0 0;
+  margin: 0 20px 6px 0;
   text-align: end;
 }
 
@@ -211,7 +200,7 @@ body {
 }
 
 .experiencia-uno p:nth-child(n) {
-  margin: 0 0 0 20px;
+  margin: 0 0 6px 20px;
 }
 
 .experiencia-uno p:nth-child(1) {
@@ -241,6 +230,7 @@ body {
 }
 .educacion-dos p:nth-child(2) {
   font-weight: 600;
+  margin-bottom: 6px;
 }
 .educacion-dos p:nth-child(3) {
   font-weight: 300;
@@ -254,7 +244,7 @@ body {
 }
 
 .experiencia-dos p:nth-child(n) {
-  margin: 0 0 0 20px;
+  margin: 0 0 6px 20px;
 }
 
 .experiencia-dos p:nth-child(1) {
@@ -264,7 +254,7 @@ body {
   font-weight: 300;
 }
 
-.educacion-arrow-dos {
+.arrow-dos {
   height: 290px;
 }
 

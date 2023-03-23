@@ -146,13 +146,36 @@ body {
   justify-content: space-evenly;
   margin: 16px;
 }
+.pokedex {
+  width: 50%;
+}
 
 .rickMorty {
   width: 50%;
 }
 
-.pokedex {
-  width: 50%;
+.link-proyectos {
+  display: flex;
+}
+
+.link-pokedex:link {
+  text-decoration: none;
+  color: white;
+}
+
+.link-pokedex:visited {
+  color: white;
+}
+
+.button-pokedex {
+  width: 110px;
+  height: 30px;
+  margin-left: 60px;
+  background: #3e3c6e;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+  border: 1px solid #3e3c6e;
 }
 
 .educacion-title {
@@ -295,20 +318,20 @@ body {
 }
 
 .email {
-  width: 20px;
+  margin-left: 30px;
   margin-right: 10px;
   width: 20px;
   height: 20px;
   object-fit: cover;
 }
 
-.footer-web {
+.footer-github {
   display: flex;
   align-items: center;
 }
 
-.web {
-  width: 20px;
+.github {
+  margin-left: 30px;
   margin-right: 10px;
   width: 20px;
   height: 20px;
@@ -321,7 +344,7 @@ body {
 }
 
 .ubicacion {
-  width: 20px;
+  margin-left: 30px;
   margin-right: 10px;
   width: 20px;
   height: 20px;

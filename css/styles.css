@@ -72,32 +72,27 @@ body {
   color: white;
 }
 
+.intro-redes {
+  display: flex;
+  align-items: center;
+}
+
+.intro-linkedin,
+.intro-github {
+  width: 20px;
+  height: 20px;
+}
+.intro-linkedin {
+  margin: 10px 0 0 110px;
+}
+.intro-github {
+  margin: 10px 0 0 10px;
+}
+
 .intro-foto {
   height: 400px;
   clip-path: circle(40%);
 }
-
-/* .intro-sigueme {
-  writing-mode: vertical-rl;
-  color: #a569bd;
-  margin-right: 65px;
-  position: relative;
-  z-index: 2;
-}
-
-.intro-redes {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.intro-line,
-.intro-linkedin,
-.intro-Twitter,
-.intro-Instagram {
-  margin-top: 8px;
-  margin-right: 50px;
-} */
 
 .espacio-sobremi {
   height: 50px;
